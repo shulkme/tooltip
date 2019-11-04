@@ -10,5 +10,10 @@
 > Example:
 
 ```html
-<button data-tooltip="tooltips" data-tooltip-pos="tc" data-tooltip-theme="light">top center</button>
+<button data-tooltip="tooltips">tooltip</button>
+```
+```javascript
+$('[data-tooltip]').tooltip({
+  //options...
+});
 ```
