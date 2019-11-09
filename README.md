@@ -1,19 +1,27 @@
 # tooltip
-> dark theme (default)
+> A jQuery plugin for tooltips
+
+### preview
+#### dark theme (default)
 
 ![demo preview](https://github.com/shulkme/tooltip/blob/master/theme-dark.png)
 
-> light theme
+#### light theme
 
 ![demo preview](https://github.com/shulkme/tooltip/blob/master/theme-light.png)
 
-> Example:
+### Example:
 
 ```html
 <button data-tooltip="tooltips">tooltip</button>
 ```
 ```javascript
 $('[data-tooltip]').tooltip({
-  //options...
+  //options...All optional
+  trigger   : 'hover', //Trigger mode：'hover','click','focus'
+  autoPlace : true,    //Automatic placement to avoid out of view
+  delay     : 10,      //Show hidden delay
+  placement : 'top',   //Placement preference：'top','topLeft','topRight','right','rightTop','rightBottom','bottom', 'bottomLeft', 'bottomRight','left',   'leftTop',    'leftBottom'
+  theme   : 'dark'     //Theme style
 });
 ```
