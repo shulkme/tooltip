@@ -21,7 +21,7 @@ $('[data-tooltip]').tooltip({
   trigger   : 'hover', //Trigger mode：'hover','click','focus'
   autoPlace : true,    //Automatic placement to avoid out of view
   delay     : 10,      //Show hidden delay
-  placement : 'top',   //Placement preference：'top','topLeft','topRight','right','rightTop','rightBottom','bottom', 'bottomLeft', 'bottomRight','left',   'leftTop',    'leftBottom'
+  placement : 'top',   //Placement preference：'top','topLeft','topRight','right','rightTop','rightBottom','bottom','bottomLeft', 'bottomRight','left',   'leftTop',    'leftBottom'
   theme   : 'dark'     //Theme style
 });
 ```
