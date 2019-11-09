@@ -1,7 +1,7 @@
 /**
  * tooltip
  * shulkme
- * v0.1.2
+ * v0.0.1
  * 2019-11-04
  * https://github.com/shulkme/tooltip
  */
